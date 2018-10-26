@@ -15,5 +15,21 @@ describe('Array', function() {
       array.push(1)
       expect(array.length).to.equal(5)
     })
+
+    describe('#pop()', function() {
+      it ('should remove an item from the array', function() {
+        var array = [1, 2, 3, 4]
+        array.pop()
+        expect(array).to.deep.equal([1, 2, 3])
+
+      it('Should alter the length properly', function () {
+        var array = [1,1,1,1]
+        array.pop()
+        expect(array.length).to.equal(3)
+      })
+
+    })
+
   })
+})
 })

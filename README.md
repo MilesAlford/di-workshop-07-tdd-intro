@@ -50,7 +50,7 @@ Once you understand what's going on, **ANSWER THE QUESTION IN THIS README FILE**
 Look in [`array.test.js`](test/array.test.js). This contains some tests for JavaScript's built-in Array methods.
 
 **What do the existing tests actually test (explain in english)?**
-
+The first test is testing if a new item can be added to the array. The second test is seeing once a new item is added to the array if when using the command arrey.length it should change to included the added item.
 **Add a test for the `pop()` method.**
 Hint: You'll need _two_ assertions to fully test that it `pop()` works. Explain why you chose these assersions here.
 
@@ -63,9 +63,9 @@ Until now, we've been testing JavaScript's in-built functionality, which is kind
 Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
-
+the Cooclulator  only currently returns the sum of the addition of 2 numbers
 **Describe how the existing test works**
-
+the current test checks if the coolculator adds together two numbers and returns the correct sum
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.
 
@@ -75,9 +75,9 @@ Once you've seen it fail, revert your change so it's green again.
 Now let's do some TDD! Uncomment the `multiply()` test.
 
 **What do you expect to happen when you run your tests?**
-
+I expect the the new test to fail
 **What actually happened when you ran your tests?**
-
+The test failed as the function multiply doesnt exsist in the coolculator.
 **Add a method to the Coolculator so the test passes green**
 
 **Uncomment the `subtract()` test and write some code to make it green**
